@@ -1,4 +1,6 @@
 qutip
-matplotlib
 numpy
+matplotlib
 pandas
+scipy
+jupyter

@@ -1,13 +1,10 @@
-# κ-Scaling Quantum Measurement Simulation
+## κ-Scaling Framework
 
-This repository contains simulations for the κ-scaling hypothesis in quantum measurement, using a spin-boson model and Lindblad dynamics.
+This repository contains the simulation code, data, and figures for the κ-scaling hypothesis in quantum measurement.
 
-## Structure
-- `kappa_simulation.py`: Core simulation logic
-- `data/`: Raw data from simulations
-- `figures/`: Generated plots for publication
-- `notebooks/`: Jupyter notebooks for analysis
-- `requirements.txt`: Python dependencies
-
-## Key Result
-Measurement outcome fidelity, entanglement (concurrence), and visibility all exhibit resonance at κ ≈ 1, confirming theoretical predictions from the κ-scaling framework.
+### Contents
+- `kappa_simulation.py`: Core simulation script using QuTiP
+- `notebooks/`: Jupyter notebook version of the simulation
+- `data/`: Raw CSV outputs from simulations
+- `figures/`: Final publication-ready figures
+- `paper/`: LaTeX manuscript for submission
